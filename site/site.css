@@ -466,7 +466,7 @@ html.is-static .breathe,
 html.is-static .rain {
   animation: none;
 }
-@media (prefers-reduced-motion: reduce) {
+html.is-static {
   .breathe,
   .rain {
     animation: none;
